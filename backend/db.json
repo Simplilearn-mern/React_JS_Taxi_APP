@@ -1,0 +1,168 @@
+{
+  "cabs": [
+    {
+      "id": "1",
+      "cabName": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "driverPhone": "9876543210",
+      "vehicleNumber": "KA01AB1234",
+      "carModel": "Swift",
+      "seats": 4,
+      "farePerKm": 10,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "cabName": "Sedan",
+      "driverName": "Suresh Patel",
+      "driverPhone": "9876500001",
+      "vehicleNumber": "KA02BC5678",
+      "carModel": "Dzire",
+      "seats": 4,
+      "farePerKm": 15,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "cabName": "SUV",
+      "driverName": "Mahesh Reddy",
+      "driverPhone": "9876500002",
+      "vehicleNumber": "KA03CD9012",
+      "carModel": "Innova",
+      "seats": 6,
+      "farePerKm": 20,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "cabName": "Luxury",
+      "driverName": "Kiran Singh",
+      "driverPhone": "9876500003",
+      "vehicleNumber": "KA04DE3456",
+      "carModel": "BMW",
+      "seats": 4,
+      "farePerKm": 35,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "2",
+      "customerName": "Priya Nair",
+      "phone": "9876543211",
+      "pickupLocation": "Indiranagar",
+      "dropLocation": "Airport",
+      "bookingDate": "2026-03-16",
+      "cabId": 3,
+      "cabType": "SUV",
+      "driverName": "Mahesh Reddy",
+      "fare": 800,
+      "status": "Completed"
+    },
+    {
+      "id": "1cb3",
+      "customerName": "Akash",
+      "phone": "94848487",
+      "pickupLocation": "A",
+      "dropLocation": "B",
+      "cabId": "1",
+      "cabType": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "status": "Booked"
+    },
+    {
+      "customerName": "Unknown",
+      "phone": "1234567891",
+      "pickupLocation": "stn",
+      "dropLocation": "home",
+      "cabId": "1",
+      "cabType": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "status": "Booked",
+      "id": "pHmQfth"
+    },
+    {
+      "customerName": "asc",
+      "phone": "1234566789",
+      "pickupLocation": "ase",
+      "dropLocation": "ews",
+      "cabId": "2",
+      "cabType": "Sedan",
+      "driverName": "Suresh Patel",
+      "status": "Booked",
+      "id": "_5sF_7t"
+    },
+    {
+      "customerName": "asd",
+      "phone": "1223456789",
+      "pickupLocation": "as",
+      "dropLocation": "as",
+      "cabId": "1",
+      "cabType": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "status": "Booked",
+      "id": "rD4Y4gw"
+    },
+    {
+      "customerName": "asd",
+      "phone": "1123456789",
+      "pickupLocation": "sfv",
+      "dropLocation": "ax",
+      "cabId": "1",
+      "cabType": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "status": "Booked",
+      "id": "qHfN3x_"
+    },
+    {
+      "customerName": "ASD",
+      "phone": "9111111111",
+      "pickupLocation": "asd",
+      "dropLocation": "asd",
+      "cabId": "4",
+      "cabType": "Luxury",
+      "driverName": "Kiran Singh",
+      "status": "Booked",
+      "id": "DZQ1rFU"
+    },
+    {
+      "customerName": "as",
+      "phone": "2123334444",
+      "pickupLocation": "a",
+      "dropLocation": "s",
+      "cabId": "2",
+      "cabType": "Sedan",
+      "driverName": "Suresh Patel",
+      "status": "Booked",
+      "id": "vx9Xxl6"
+    },
+    {
+      "customerName": "Alice",
+      "phone": "8912345556",
+      "pickupLocation": "HSR",
+      "dropLocation": "ITPL",
+      "cabId": "2",
+      "cabType": "Sedan",
+      "driverName": "Suresh Patel",
+      "status": "Booked",
+      "id": "CeiOX2s"
+    },
+    {
+      "customerName": "dc",
+      "phone": "1223456789",
+      "pickupLocation": "ad",
+      "dropLocation": "dg",
+      "cabId": "3",
+      "cabType": "SUV",
+      "driverName": "Mahesh Reddy",
+      "driverPhone": "9876500002",
+      "status": "Booked",
+      "id": "uQL99iW"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
